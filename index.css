@@ -84,9 +84,8 @@
     background-size:cover;
     background-color:rgba(255, 255, 255, 0.5);
 
-    background-image: url('img/moscow.jpg');
 
-    background: -webkit-linear-gradient(right, rgba(21, 21, 21, 0.85), rgba(0, 0, 0, .999) 60%); /* For Chrome 25 and Safari 6, iOS 6.1, Android 4.3 */
+    background-image: -webkit-linear-gradient(right, rgba(21, 21, 21, 0.85), rgb(0, 0, 0) 60%), url('img/moscow.jpg'); /* For Chrome 25 and Safari 6, iOS 6.1, Android 4.3 */
     background-image:    -moz-linear-gradient(to right, rgba(21, 21, 21, 0.85) 0%, rgba(0, 0, 0, .999) 60%), url('img/moscow.jpg'); /* For Firefox (3.6 to 15) */
     background-image:      -o-linear-gradient(to right, rgba(21, 21, 21, 0.85) 0%, rgba(0, 0, 0, .999) 60%), url('img/moscow.jpg'); /* For old Opera (11.1 to 12.0) */ 
     background-image:         linear-gradient(to right, rgba(21, 21, 21, 0.85) 0%, rgba(0, 0, 0, .999) 60%), url('img/moscow.jpg'); /* Standard syntax; must be last */
@@ -94,7 +93,8 @@
 @media screen and (min-width: 1300px) {
     .head{
         background-image: url('img/moscow.jpg');
-        background: -webkit-linear-gradient(right, rgba(21, 21, 21, 0.75), rgba(0, 0, 0, .999) 50%); /* For Chrome 25 and Safari 6, iOS 6.1, Android 4.3 */
+
+        background-image: -webkit-linear-gradient(right, rgba(21, 21, 21, 0.75), rgb(0, 0, 0) 50%), url('img/moscow.jpg');  /* For Chrome 25 and Safari 6, iOS 6.1, Android 4.3 */
         background-image:    -moz-linear-gradient(to right, rgba(21, 21, 21, 0.75) 0%, rgba(0, 0, 0, .999) 50%), url('img/moscow.jpg'); /* For Firefox (3.6 to 15) */
         background-image:      -o-linear-gradient(to right, rgba(21, 21, 21, 0.75) 0%, rgba(0, 0, 0, .999) 50%), url('img/moscow.jpg'); /* For old Opera (11.1 to 12.0) */ 
         background-image:         linear-gradient(to right, rgba(21, 21, 21, 0.75) 0%, rgba(0, 0, 0, .999) 50%), url('img/moscow.jpg'); /* Standard syntax; must be last */
@@ -102,8 +102,7 @@
 }
 @media screen and (min-width: 1600px) {
     .head{
-         background-image: url('img/moscow.jpg');
-        background: -webkit-linear-gradient(right, rgba(21, 21, 21, 0.95), rgba(0, 0, 0, .999) 45%); /* For Chrome 25 and Safari 6, iOS 6.1, Android 4.3 */
+        background-image: -webkit-linear-gradient(right, rgba(21, 21, 21, 0.95), rgb(0, 0, 0) 45%), url('img/moscow.jpg');  /* For Chrome 25 and Safari 6, iOS 6.1, Android 4.3 */
         background-image:    -moz-linear-gradient(to right, rgba(21, 21, 21, 0.70) 0%, rgba(0, 0, 0, .999) 45%), url('img/moscow.jpg'); /* For Firefox (3.6 to 15) */
         background-image:      -o-linear-gradient(to right, rgba(21, 21, 21, 0.70) 0%, rgba(0, 0, 0, .999) 45%), url('img/moscow.jpg'); /* For old Opera (11.1 to 12.0) */ 
         background-image:         linear-gradient(to right, rgba(21, 21, 21, 0.70) 0%, rgba(0, 0, 0, .999) 45%), url('img/moscow.jpg'); /* Standard syntax; must be last */
@@ -111,8 +110,8 @@
 }
 @media screen and (max-width: 1206px) {
     .head{
-         background-image: url('img/moscow.jpg');
-        background: -webkit-linear-gradient(right, rgba(21, 21, 21, 0.95), rgba(0, 0, 0, .999) 45%);/* For Chrome 25 and Safari 6, iOS 6.1, Android 4.3 */
+        background-image: url('img/moscow.jpg');
+        background-image: -webkit-linear-gradient(right, rgba(21, 21, 21, 0.95), rgb(0, 0, 0) 45%), url('img/moscow.jpg');/* For Chrome 25 and Safari 6, iOS 6.1, Android 4.3 */
         background-image:    -moz-linear-gradient(to right, rgba(21, 21, 21, 0.95) 0%, rgba(0, 0, 0, .999) 45%), url('img/moscow.jpg'); /* For Firefox (3.6 to 15) */
         background-image:      -o-linear-gradient(to right, rgba(21, 21, 21, 0.95) 0%, rgba(0, 0, 0, .999) 45%), url('img/moscow.jpg'); /* For old Opera (11.1 to 12.0) */ 
         background-image:         linear-gradient(to right, rgba(21, 21, 21, 0.95) 0%, rgba(0, 0, 0, .999) 45%), url('img/moscow.jpg'); /* Standard syntax; must be last */
