@@ -7,6 +7,24 @@
     height: 40px;
     background-size: contain;
   }
+  .tinkof_style{
+    box-shadow: 0px 5px 2px 2px rgb(128, 109, 77);
+    background-color: #f7d8a3;
+    color: black;
+    font-weight: 100;
+    font-family: 'Gotham',Arial,sans-serif;
+    border-radius: 20px;
+    align-items: center;
+    animation-duration: 1s;
+    animation-name: zoom;
+    animation-iteration-count: infinite;
+    width: 370px;
+    padding-top:23px;
+    padding-bottom: 23px;
+    font-size: 30px;
+    position: relative;
+    overflow: hidden;
+  }
   
   #leftArrow:hover,
   #leftArrow:active,
@@ -16,6 +34,12 @@
 #leftArrow{
     background-image: url('img/but.png');
 }
+
+.tinkof_style:hover, .header_but:hover{
+    background-color: antiquewhite !important;
+}
+
+
 #rightArrow:hover,
 #rightArrow:active,
 #rightArrow:focus {
@@ -257,7 +281,7 @@ h1, h2, h3, h4, h5, h6, p{
     position: relative;
     overflow: hidden;
 }
-.header_but:after {
+.header_but:after, .tinkof_style::after {
     content: "";
     display: block;
     width: 20px;
@@ -555,6 +579,13 @@ h1, h2, h3, h4, h5, h6, p{
         height: 450px;
     }
 }
+@media screen and (max-width:784px) {
+    .header_block_but{
+        flex-direction: column;
+        align-items: center;
+        height: 226px;
+    }
+}
 @media screen and (max-width:704px) {
     .txt_who_head{
         display: block;
@@ -563,11 +594,7 @@ h1, h2, h3, h4, h5, h6, p{
     .space{
         display: none;
     }
-    .header_block_but{
-        flex-direction: column;
-        align-items: center;
-        height: 226px;
-    }
+
     .header_but{
         margin-bottom: 30px;
     }
@@ -694,7 +721,7 @@ h1, h2, h3, h4, h5, h6, p{
     .background_image_20 {
         left: 2px
     }
-    .header_but{
+    .header_but, .tinkof_style{
         width: 340px;
         font-size: 25px;
     }

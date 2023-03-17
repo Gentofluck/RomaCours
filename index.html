@@ -8,7 +8,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
-
+        <script src="https://forma.tinkoff.ru/static/onlineScript.js"></script>
         <link rel="stylesheet" href="index.css" type="text/css" media="all"/>
         <script src="slider.js" defer></script>
     </head>
@@ -39,9 +39,25 @@
                     </div>
                 </div>
                 <div class="header_block_but">
-                    <a class="header_but">
+                    <a class="header_but" href="https://t.me/dorozhe_deneg39" style="text-decoration: none;">
                         Предзапись <s>7990</s> 6990р.
                     </a>
+                    <button
+                        type="button"
+                        class="TINKOFF_BTN_YELLOW TINKOFF_SIZE_L tinkof_style"
+                        onclick="tinkoff.createDemo(
+                            {
+                            sum: 6990,
+                            items: [{name: 'Авторский курс по обучению криптовалюте', price: 6990, quantity: 1}],
+                            demoFlow: 'sms',
+                            promoCode: 'installment_0_0_10_10',
+                            shopId: '4787f6e3-3c27-40f6-8cc5-28b7715b5bf9',
+                            showcaseId: '8ae47ac1-97a2-431e-94e8-014696ce83f8',
+                            },
+                            {view: 'modal'}
+                        )"
+                        ></button>
+                    
                 </div>
             </div>
             <img class="header_img_from_1206" src="img/пробный.png">
